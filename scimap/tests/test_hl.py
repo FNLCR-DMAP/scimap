@@ -19,7 +19,9 @@ load_pickle = lambda filename: pickle.load(open(filename, 'rb'))
 # load data
 @pytest.fixture
 def adata():
-    image_path = os.getcwd() + '/scimap/tests/scimapExampleData/scimapExampleData.h5ad'
+    # image_path = os.getcwd() + '/scimap/tests/scimapExampleData/scimapExampleData.h5ad'
+    image_path = '/data/BIDS-HPC/private/projects/SPAC_related/scimap/conda_v_2_1_3/scimap/scimap/tests/scimapExampleData/scimapExampleData.h5ad'
+    print(image_path)
     adata = ad.read_h5ad(image_path)
     return adata
 

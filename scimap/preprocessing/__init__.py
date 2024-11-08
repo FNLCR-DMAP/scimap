@@ -1,1 +1,4 @@
-from .mcmicro_to_scimap import mcmicro_to_scimapfrom .rescale import rescalefrom .combat import combatfrom .log1p import log1p
+from .mcmicro_to_scimap import mcmicro_to_scimap
+from .rescale import rescale
+# from .combat import combat
+from .log1p import log1p
