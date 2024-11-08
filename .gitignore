@@ -5,6 +5,8 @@ __pycache__
 .ipynb_checkpoints
 setup.py
 pip-wheel-metadata/
+testFigures/
+conda_recipe/*.log
 
 # Temporary OS files
 Icon*
